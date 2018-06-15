@@ -14,7 +14,7 @@ class App extends Component {
 		hiScore: 0
 	};
 
-	// refactored shuffle from star wars rpg - dunno how "Reactorish" this is
+	// refactored shuffle from star wars rpg - dunno how "Reactish" this is
 	shuffleCards = arr => {
 		let j, x, i;
 		for (i = arr.length - 1; i > 0; i--) {
@@ -71,7 +71,7 @@ class App extends Component {
 		return (
 			<Wrapper>
 				<Title>
-					Memory Game
+					Memomry Game
 					<Score score={this.state.score} hiScore={this.state.hiScore} />
 				</Title>
 				{this.state.cardArr.map(card => (
