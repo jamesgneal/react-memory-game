@@ -26,6 +26,7 @@ class App extends Component {
 		this.setState({ cardArr: arr });
 	};
 
+    // The cards are run through the shuffleCards method initially because the method links the friends.json array to state.cardArr. If we link friends.JSON directly to render(), cardShuffle() throws errors
 	componentDidMount() {
 		this.shuffleCards(friends);
 	}

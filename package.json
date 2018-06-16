@@ -2,7 +2,7 @@
 	"name": "memomry-game",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://jamesgneal.github.io/memomry-game",
+	"homepage": "https://jamesgneal.github.io/react-memory-game/",
 	"dependencies": {
 		"gh-pages": "^1.2.0",
 		"react": "^16.4.0",
